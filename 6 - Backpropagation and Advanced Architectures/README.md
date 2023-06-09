@@ -1,5 +1,4 @@
 
-Model :
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
@@ -30,9 +29,48 @@ Model :
 Total params: 7,840
 Trainable params: 7,840
 Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.53
+Params size (MB): 0.03
+Estimated Total Size (MB): 0.56
+----------------------------------------------------------------
 
+EPOCH: 0
+Loss=0.12665478885173798 Batch_id=468 Accuracy=93.76: 100%|██████████| 469/469 [00:02<00:00, 195.81it/s] 
+Test set: Average loss: 0.0839, Accuracy: 58436/60000 (97.39%)
 
-Accuracy:
+EPOCH: 1
+Loss=0.035892460495233536 Batch_id=468 Accuracy=98.28: 100%|██████████| 469/469 [00:02<00:00, 213.11it/s]
+Test set: Average loss: 0.0530, Accuracy: 59009/60000 (98.35%)
+
+EPOCH: 2
+Loss=0.06462666392326355 Batch_id=468 Accuracy=98.58: 100%|██████████| 469/469 [00:02<00:00, 217.29it/s]  
+Test set: Average loss: 0.0396, Accuracy: 59262/60000 (98.77%)
+
+EPOCH: 3
+Loss=0.01833486557006836 Batch_id=468 Accuracy=98.85: 100%|██████████| 469/469 [00:02<00:00, 225.52it/s]  
+Test set: Average loss: 0.0346, Accuracy: 59344/60000 (98.91%)
+
+EPOCH: 4
+Loss=0.009200053289532661 Batch_id=468 Accuracy=99.07: 100%|██████████| 469/469 [00:02<00:00, 218.54it/s] 
+Test set: Average loss: 0.0290, Accuracy: 59446/60000 (99.08%)
+
+EPOCH: 5
+Loss=0.036032505333423615 Batch_id=468 Accuracy=99.15: 100%|██████████| 469/469 [00:02<00:00, 219.91it/s] 
+Test set: Average loss: 0.0268, Accuracy: 59459/60000 (99.10%)
+
+EPOCH: 6
+Loss=0.01369245070964098 Batch_id=468 Accuracy=99.17: 100%|██████████| 469/469 [00:02<00:00, 212.18it/s]  
+Test set: Average loss: 0.0219, Accuracy: 59598/60000 (99.33%)
+
+EPOCH: 7
+Loss=0.005717333871871233 Batch_id=468 Accuracy=99.30: 100%|██████████| 469/469 [00:02<00:00, 218.42it/s] 
+Test set: Average loss: 0.0208, Accuracy: 59616/60000 (99.36%)
+
+EPOCH: 8
+Loss=0.056340958923101425 Batch_id=468 Accuracy=99.34: 100%|██████████| 469/469 [00:02<00:00, 219.85it/s] 
+Test set: Average loss: 0.0173, Accuracy: 59706/60000 (99.51%)
 
 EPOCH: 9
 Loss=0.01970233954489231 Batch_id=468 Accuracy=99.41: 100%|██████████| 469/469 [00:02<00:00, 221.88it/s]  
